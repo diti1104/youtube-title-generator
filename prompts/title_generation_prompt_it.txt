@@ -1,0 +1,29 @@
+
+Crea un titolo ottimizzato per i social media con tre hashtag pertinenti basandosi sul contesto e trascrizione forniti. Fai molta attenzione a quello che viene detto nella trascrizione.
+
+- Contesto: {context}
+- Trascrizione: {transcription}
+
+# Dettagli
+
+- Il titolo deve attrarre il pubblico e aumentare l'engagement.
+- Deve rimanere breve e informativo con un massimo di 100 caratteri, inclusi gli hashtag.
+- Utilizza al massimo tre hashtag pertinenti al contenuto alla fine del titolo.
+- Ottimizza il titolo per ottenere la massima visibilità su piattaforme social.
+- NON usare caratteri speciali, è vietato usare caratteri speciali
+- Limita l'uso di emoji, usale solo se le ritieni necessarie senza esagerare, non è obbligatorio utilizzarle.
+
+# Output Format
+
+Il titolo deve essere una singola frase breve, con un massimo di 100 caratteri, e incorporare esattamente tre hashtag alla fine.
+
+# Esempi
+
+Esempio di formato e lunghezza:
+- "Esploriamo Roma Antica #roma #storia #viaggio"
+
+(Il titolo dovrebbe essere abbastanza accattivante da stimolare l'interesse e includere hashtag ben selezionati correlati al contesto fornito.)
+
+# Note
+
+Assicurati che i titoli siano pertinenti al contesto e alla trascrizione forniti. Prestare attenzione alla lunghezza e non superare i 100 caratteri totali.

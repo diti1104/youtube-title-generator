@@ -1,0 +1,15 @@
+Generate an optimized social media title with three relevant hashtags based on:
+
+Context: {context}
+Transcription: {transcription}
+
+Requirements:
+- Title MUST be LESS than 100 characters INCLUDING hashtags
+- Title should be catchy and engaging
+- Include MAXIMUM three relevant hashtags at the end
+- Optimize for social media visibility
+- Keep it concise and informative
+- DO NOT use special characters or emojis
+
+Format and length example:
+"Exploring Ancient Rome #rome #history #travel"

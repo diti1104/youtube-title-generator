@@ -2,9 +2,6 @@
 
 A powerful Python tool that automates the generation of SEO-optimized titles for social media videos using AI. This tool processes video clips by transcribing their audio content and generating engaging titles with relevant hashtags.
 
-## Author
-Jacopo Luca Maria Latrofa
-
 ## Features
 
 - 🎥 Process single videos or entire folders
@@ -119,7 +116,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - OpenRouter for AI model access
 - MoviePy for video processing
 
-## Contact
+## Author
 
 Jacopo Luca Maria Latrofa
 - GitHub: [@fralapo](https://github.com/fralapo)

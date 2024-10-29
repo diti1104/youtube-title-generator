@@ -42,7 +42,7 @@ OPENROUTER_API_KEY=your_openrouter_api_key_here
 
 1. Run the main script:
 ```bash
-python video_title_generator.py
+python main.py
 ```
 
 2. Select your preferred language (English or Italian)
@@ -82,7 +82,7 @@ video-title-generator/
 ├── language_manager.py    # Language management
 ├── models.py             # AI model selection
 ├── prompt_handler.py     # Title generation
-└── video_title_generator.py  # Main script
+└── main.py  # Main script
 ```
 
 ## Adding New Languages

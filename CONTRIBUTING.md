@@ -38,8 +38,7 @@ We use GitHub to host code, to track issues and feature requests, as well as acc
 ## Pull Request Process
 
 1. Update the README.md with details of changes if applicable
-2. Update the CHANGELOG.md with notes on your changes
-3. The PR will be merged once you have the sign-off of at least one maintainer
+2. The PR will be merged once you have the sign-off of at least one maintainer
 
 ## Any Contributions You Make Will Be Under the MIT Software License
 

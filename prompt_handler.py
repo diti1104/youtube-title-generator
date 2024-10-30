@@ -1,17 +1,5 @@
-"""
-prompt_handler.py
-
-This module handles the generation and optimization of titles using the OpenRouter API.
-It deals with creating effective AI prompts and optimizing the generated headlines to meet
-length limits while maintaining the most relevant information.
-
-Key Features:
-- Generating prompts for AI
-- Headline length optimization
-- Hashtag management
-- Integration with OpenRouter API
-- Title validation and formatting
-"""
+# Prompt handling and title generation module
+# Manages prompt templates and API interactions for title generation
 
 import requests
 import os
@@ -87,12 +75,25 @@ def generate_title(openrouter_api_key, selected_model, transcription, context, l
 
         headers = {
             "Authorization": f"Bearer {openrouter_api_key}",
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
+            "HTTP-Referer": "https://github.com/yourusername/video-title-generator",  # Replace with your actual repo
+            "X-Title": "Video Title Generator"
         }
 
         data = {
             "model": selected_model,
-            "messages": [{"role": "user", "content": prompt}]
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "You are a professional social media title generator."
+                },
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ],
+            "temperature": 0.7,
+            "max_tokens": 100
         }
 
         response = requests.post(
@@ -113,8 +114,16 @@ def generate_title(openrouter_api_key, selected_model, transcription, context, l
         
         return optimized_title
         
-    except FileNotFoundError:
-        # Error already handled in load_prompt_template
+    except requests.exceptions.RequestException as e:
+        error_msg = str(e)
+        if hasattr(e.response, 'json'):
+            try:
+                error_data = e.response.json()
+                if 'error' in error_data:
+                    error_msg = f"{error_data['error'].get('message', str(e))}"
+            except:
+                pass
+        print(lm.get_string("title_generation_error", error_msg))
         return None
     except Exception as e:
         print(lm.get_string("title_generation_error", str(e)))

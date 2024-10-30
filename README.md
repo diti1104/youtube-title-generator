@@ -91,17 +91,6 @@ video-title-generator/
 2. Add corresponding prompt template in `prompts/` (e.g., `title_generation_prompt_fr.txt`)
 3. The system will automatically detect and include the new language
 
-## Available AI Models
-
-- OpenAI:
-  - gpt-4o
-  - gpt-4o-mini
-- Anthropic:
-  - claude-3.5-sonnet
-  - claude-3-haiku
-- Meta-Llama:
-  - llama-3.2
-
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.

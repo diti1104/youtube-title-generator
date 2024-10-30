@@ -13,8 +13,8 @@ def load_prompt_template(language_code):
         with open(prompt_path, 'r', encoding='utf-8') as file:
             return file.read()
     except FileNotFoundError:
-        print(f"ERRORE: File prompt non trovato in: {prompt_path}")
-        print("Assicurati che la cartella 'prompts' esista con il file prompt per la lingua selezionata")
+        print(lm.get_string("prompt_file_not_found", str(prompt_path)))
+        print(lm.get_string("check_prompt_file"))
         raise
 
 def optimize_title_length(title, max_length=100):
@@ -76,7 +76,7 @@ def generate_title(openrouter_api_key, selected_model, transcription, context, l
         headers = {
             "Authorization": f"Bearer {openrouter_api_key}",
             "Content-Type": "application/json",
-            "HTTP-Referer": "https://github.com/yourusername/video-title-generator",  # Replace with your actual repo
+            "HTTP-Referer": "https://github.com/yourusername/video-title-generator",
             "X-Title": "Video Title Generator"
         }
 

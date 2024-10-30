@@ -26,11 +26,14 @@
     "title_generation_error": "Errore nella generazione del titolo: {}",
     "unexpected_error": "Si è verificato un errore inaspettato: {}",
     "api_key_missing": "{} non trovata nel file .env",
-    "api_key_instructions": "Per favore, {} con la tua chiave API {}: ",
-    "available_models": "Disponibili modelli AI per categoria: ",
-    "select_model": "Seleziona il numero del modello desiderato [1-{}]: ",
+    "api_key_instructions_create": "Per favore crea un file .env con la tua chiave API {}",
+    "api_key_instructions_add": "Per favore aggiungi la tua chiave API {} al file .env",
+    "available_models": "Modelli AI disponibili per categoria: ",
+    "select_model": "Seleziona il numero del modello [1-{}]: ",
     "invalid_selection": "Selezione non valida. Inserisci un numero tra 1 e {}.",
     "enter_valid_number": "Per favore inserisci un numero valido.",
     "model_selected": "Modello selezionato: {} ({})",
-    "title_too_long": "ATTENZIONE: Titolo troppo lungo ({} caratteri), ottimizzazione in corso..."
+    "title_too_long": "ATTENZIONE: Titolo troppo lungo ({} caratteri), ottimizzazione in corso...",
+    "prompt_file_not_found": "File prompt non trovato in: {}",
+    "check_prompt_file": "Assicurati che la cartella 'prompts' esista con il file prompt per la lingua selezionata"
 }

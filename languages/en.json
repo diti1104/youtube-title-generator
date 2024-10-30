@@ -2,7 +2,7 @@
     "welcome": "Welcome to Video Title Generator!",
     "select_process": "Would you like to process a single video (1) or multiple videos contained in the same folder (2)?: ",
     "enter_video_path": "Enter the video file path: ",
-    "enter_folder_path": "Enter the folder path containing the videos:",
+    "enter_folder_path": "Enter the folder path containing the videos: ",
     "video_not_found": "Video file not found!",
     "folder_not_found": "Folder not found!",
     "enter_context": "Enter the video context description: ",
@@ -26,11 +26,14 @@
     "title_generation_error": "Error generating title: {}",
     "unexpected_error": "An unexpected error occurred: {}",
     "api_key_missing": "{} not found in .env file",
-    "api_key_instructions": "Please {} with your {} API key: ",
+    "api_key_instructions_create": "Please create a .env file with your {} API key",
+    "api_key_instructions_add": "Please add your {} API key to the .env file",
     "available_models": "Available AI models by category: ",
     "select_model": "Select the model number [1-{}]: ",
     "invalid_selection": "Invalid selection. Enter a number between 1 and {}.",
     "enter_valid_number": "Please enter a valid number.",
     "model_selected": "Selected model: {} ({})",
-    "title_too_long": "WARNING: Title too long ({} characters), optimizing..."
+    "title_too_long": "WARNING: Title too long ({} characters), optimizing...",
+    "prompt_file_not_found": "Prompt file not found at: {}",
+    "check_prompt_file": "Make sure the 'prompts' folder exists with the prompt file for the selected language"
 }

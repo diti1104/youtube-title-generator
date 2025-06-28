@@ -1,4 +1,7 @@
-moviepy==1.0.3
-openai==1.3.5
-requests==2.31.0
-python-dotenv==1.0.0
+moviepy==1.0.3                    # Video/audio processing
+openai==1.3.5                     # (Optional) Only needed if using direct OpenAI API
+requests==2.31.0                 # For HTTP API requests (OpenRouter)
+python-dotenv==1.0.0             # Load .env files
+openai-whisper==20231117         # Whisper model for audio transcription
+torch>=1.7.1                     # Required backend for Whisper
+ffmpeg-python==0.2.0             # Control ffmpeg for audio extraction

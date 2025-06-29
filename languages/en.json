@@ -3,7 +3,7 @@
     "select_process": "Would you like to process a single video (1) or multiple videos contained in the same folder (2)?: ",
     "enter_video_path": "Enter the video file path: ",
     "enter_folder_path": "Enter the folder path containing the videos: ",
-    "video_not_found": "Video file not found!",
+    "video_not_found": "Video file have not been found!",
     "folder_not_found": "Folder not found!",
     "enter_context": "Enter the video context description: ",
     "enter_context_for": "Enter the context description for '{}': ",

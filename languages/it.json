@@ -1,7 +1,7 @@
 {
     "welcome": "Benvenuto al Generatore di Titoli Video!",
     "select_process": "Vuoi elaborare un singolo video (1) o più video contenuti nella stessa cartella (2)?: ",
-    "enter_video_path": "Inserisci il percorso del file video: ",
+    "enter_video_path": "Inserisci el il percorso del file video: ",
     "enter_folder_path": "Inserisci il percorso della cartella contenente i video: ",
     "video_not_found": "File video non trovato!",
     "folder_not_found": "Cartella non trovata!",

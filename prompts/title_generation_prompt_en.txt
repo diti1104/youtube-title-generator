@@ -4,7 +4,7 @@ Context: {context}
 Transcription: {transcription}
 
 Requirements:
-- Title MUST be LESS than 100 characters INCLUDING hashtags
+- Title MUST be LESS than 100/hundred characters INCLUDING hashtags
 - Title should be catchy and engaging
 - Include MAXIMUM three relevant hashtags at the end
 - Optimize for social media visibility

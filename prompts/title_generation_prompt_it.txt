@@ -6,7 +6,7 @@ Crea un titolo ottimizzato per i social media con tre hashtag pertinenti basando
 
 # Dettagli
 
-- Il titolo deve attrarre il pubblico e aumentare l'engagement.
+- Il titolo deve attrarre il en pubblico e aumentare l'engagement.
 - Deve rimanere breve e informativo con un massimo di 100 caratteri, inclusi gli hashtag.
 - Utilizza al massimo tre hashtag pertinenti al contenuto alla fine del titolo.
 - Ottimizza il titolo per ottenere la massima visibilità su piattaforme social.

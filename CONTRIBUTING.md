@@ -1,6 +1,6 @@
 # Contributing to Video Title Generator
 
-We love your input! We want to make contributing to Video Title Generator as easy and transparent as possible, whether it's:
+We love your input! We want to make contributing to Video Title Generator as easy and as transparent as possible, whether it's:
 
 - Reporting a bug
 - Discussing the current state of the code
